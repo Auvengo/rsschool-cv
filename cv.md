@@ -15,7 +15,10 @@
 5. Примеры кода
 ```
 class A {
-    int data;
+    int dataA;
+    }
+class B {
+    int dataB;
     }
 ```
 
