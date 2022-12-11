@@ -1,1 +1,1 @@
-# rsschool-cv
+https://auvengo.github.io/rsschool-cv/cv
