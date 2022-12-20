@@ -11,14 +11,14 @@
   <header class="header">
     <nav class="nav">
       <ul class="nav-list">
-        <li> <a href="#contacts" class="nav-link">contacts</a> </li> |
-        <li> <a href="#summary" class="nav-link">summary</a> </li> |
-        <li> <a href="#skills" class="nav-link">skills</a> </li> |
-        <li> <a href="#code" class="nav-link">code</a> </li> |
-        <li> <a href="#courses" class="nav-link">courses</a> </li> |
-        <li> <a href="#projects" class="nav-link">projects</a> </li> |
-        <li> <a href="#education" class="nav-link">education</a> </li> |
-        <li> <a href="#english" class="nav-link">english</a> </li>
+        <li class="nav-item"> <a href="#contacts" class="nav-link">contacts</a> </li> |
+        <li class="nav-item"> <a href="#summary" class="nav-link">summary</a> </li> |
+        <li class="nav-item"> <a href="#skills" class="nav-link">skills</a> </li> |
+        <li class="nav-item"> <a href="#code" class="nav-link">code</a> </li> |
+        <li class="nav-item"> <a href="#courses" class="nav-link">courses</a> </li> |
+        <li class="nav-item"> <a href="#projects" class="nav-link">projects</a> </li> |
+        <li class="nav-item"> <a href="#education" class="nav-link">education</a> </li> |
+        <li class="nav-item"> <a href="#english" class="nav-link">english</a> </li>
       </ul>
     </nav>
   </header>
@@ -73,7 +73,9 @@
     <div class="contener">
       <section id="code" class="code">
         <h2>Code</h2>
-        code example
+        <pre><code>
+#include &lt;iostream&gt;&#10;using namespace std;&#10;int main()&#10;{&#10;    int n,a,sum=0;&#10;    cout&lt;&lt;&#34;calculate amount&#34;&lt;&lt;endl;&#10;    cout&lt;&lt;&#34;enter quantity of numbers: &#34;;&#10;    cin&gt;&gt;n;&#10;    for (int i = 1; i &lt;= n; i++) {&#10;    cout&lt;&lt;&#34;enter number &#34; &lt;&lt; i &lt;&lt;&#34;: &#34;;&#10;    cin&gt;&gt;a;&#10;    sum +=a;&#10;    }&#10;    cout&lt;&lt;&#34;in total: &#34; &lt;&lt; sum &lt;&lt;endl;&#10;    system(&#34;pause&#34;);&#10;    return 0;&#10;}
+        </code></pre>
         
       </section>
   </div>
