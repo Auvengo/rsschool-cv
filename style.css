@@ -9,6 +9,7 @@ body {
   orientation: landscape;
   flex-direction: column;
   justify-content: space-between;
+  font-family: 'Playfair Display', serif;
 }
 .header {
   background-color: lightgrey;
